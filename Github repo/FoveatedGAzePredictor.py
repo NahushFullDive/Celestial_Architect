@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import Sequential, load_model # <-- UPDATED: Added load_model for verification
-from tensorflow.keras.layers import LSTM, Dense, Dropout
+from tensorflow.keras.models import Sequential, load_model # pyright: ignore[reportMissingImports] # <-- UPDATED: Added load_model for verification
+from tensorflow.keras.layers import LSTM, Dense, Dropout # pyright: ignore[reportMissingImports]
 import matplotlib.pyplot as plt 
 
 # --- Configuration ---
